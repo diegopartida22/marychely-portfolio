@@ -10,7 +10,11 @@ function Services() {
         <h1 className="services-title">Mis Servicios</h1>
         <div class="row">
           <div class="col-lg-4 col-12">
+<<<<<<< HEAD
             <div className="services-card">
+=======
+            <div class="card">
+>>>>>>> 50d1769e3f4312e913c70497952dac924a83228e
               <img
                 src={numerology}
                 class="card-img-top"
@@ -33,7 +37,11 @@ function Services() {
             </div>
           </div>
           <div class="col-lg-4 col-12">
+<<<<<<< HEAD
             <div className="services-card">
+=======
+            <div class="card">
+>>>>>>> 50d1769e3f4312e913c70497952dac924a83228e
               <img
                 src={angel}
                 class="card-img-top"
@@ -56,7 +64,11 @@ function Services() {
             </div>
           </div>
           <div class="col-lg-4 col-12">
+<<<<<<< HEAD
             <div className="services-card">
+=======
+            <div class="card">
+>>>>>>> 50d1769e3f4312e913c70497952dac924a83228e
               <img
                 src={tarot}
                 class="card-img-top"
