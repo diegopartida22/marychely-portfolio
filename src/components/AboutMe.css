@@ -1,0 +1,56 @@
+.aboutme-container {
+  background-color: #443c68;
+  color: #fff;
+}
+
+.aboutme-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.aboutme-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.aboutme-image {
+  width: 100%;
+  margin-left: 3rem;
+  border: 3px solid #333; /* adds a border */
+  background-color: #f2f2f2; /* sets a background color */
+  padding: 20px; /* adds some padding inside the figure */
+  margin-bottom: 30px;
+  /* adds some margin around the figure */
+}
+
+@media (max-width: 768px) {
+  .aboutme-image {
+    width: 80%;
+    /* Positionate the image in the center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutme-title {
+    text-align: center;
+  }
+
+  .aboutme-description {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

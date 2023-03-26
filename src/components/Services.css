@@ -1,0 +1,58 @@
+.container {
+  padding: 4rem 0;
+}
+
+.services-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.services-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.services-image {
+  width: 60%;
+  padding: 20px;
+  /* Positionate the image in the center */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: #443c68;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .services-image {
+    width: 50%;
+  }
+
+  .card {
+    margin: 10px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services-title {
+    text-align: center;
+  }
+}
