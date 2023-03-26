@@ -10,7 +10,7 @@ function Services() {
         <h1 className="services-title">Mis Servicios</h1>
         <div class="row">
           <div class="col-lg-4 col-12">
-            <div id="cardID" class="card">
+            <div className="card-services">
               <img
                 src={numerology}
                 class="card-img-top"
@@ -33,7 +33,7 @@ function Services() {
             </div>
           </div>
           <div class="col-lg-4 col-12">
-            <div id="cardID" class="card">
+            <div className="card-services">
               <img
                 src={angel}
                 class="card-img-top"
@@ -56,7 +56,7 @@ function Services() {
             </div>
           </div>
           <div class="col-lg-4 col-12">
-            <div id="cardID" class="card">
+            <div className="card-services">
               <img
                 src={tarot}
                 class="card-img-top"

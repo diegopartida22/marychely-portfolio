@@ -31,15 +31,12 @@
   margin-right: auto;
 }
 
-.card {
+.card-services {
+  background-color: #443c68;
   color: #fff;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-}
-
-#cardID {
-  background-color: #443c68;
 }
 
 @media (max-width: 768px) {
