@@ -11,7 +11,7 @@ function Services() {
         <div class="row">
           <div class="col-lg-4 col-12">
             <div className="services-card">
-              <div class="card">
+              <div class="card" className="services-cards">
                 <img
                   src={numerology}
                   class="card-img-top"
@@ -36,7 +36,7 @@ function Services() {
           </div>
           <div class="col-lg-4 col-12">
             <div className="services-card">
-              <div class="card">
+              <div class="card" className="services-cards">
                 <img
                   src={angel}
                   class="card-img-top"
@@ -61,7 +61,7 @@ function Services() {
           </div>
           <div class="col-lg-4 col-12">
             <div className="services-card">
-              <div class="card">
+              <div class="card" className="services-cards">
                 <img
                   src={tarot}
                   class="card-img-top"
