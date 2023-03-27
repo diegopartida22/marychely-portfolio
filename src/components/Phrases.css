@@ -1,9 +1,12 @@
-.services {
+.phrases-container {
+  background-color: #37306b;
+  color: #fff;
   padding-top: 2rem;
   padding-bottom: 4rem;
+  text-align: center;
 }
 
-.services-title {
+.phrases-title {
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -11,24 +14,27 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   position: relative;
-  text-align: right;
 }
 
-.services-image {
+.phrases-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
   padding: 20px;
 }
 
-.services-cards {
-  background-color: #37306b;
-  color: #fff;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-  width: 90%;
+.phrase {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  padding: 3rem;
+}
+
+@media (max-width: 768px) {
+  .phrase {
+    width: 90%;
+  }
 }

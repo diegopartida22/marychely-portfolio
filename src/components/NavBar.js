@@ -44,6 +44,7 @@ function NavBar() {
               <Dropdown.Item>Something else</Dropdown.Item>
             </Dropdown.Menu>
           </Nav.Item> */}
+          <Nav.ItemLink href="#">Frases</Nav.ItemLink>
           <Nav.ItemLink href="#">Contacto</Nav.ItemLink>
 
           {/* <Nav.ItemLink disabled>
