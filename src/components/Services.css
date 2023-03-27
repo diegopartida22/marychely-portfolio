@@ -1,3 +1,8 @@
+.services {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .services-title {
   font-size: 4rem;
   font-weight: bold;
@@ -15,4 +20,15 @@
   margin-right: auto;
   width: 50%;
   padding: 20px;
+}
+
+.card {
+  background-color: #37306b;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
