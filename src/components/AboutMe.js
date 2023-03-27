@@ -13,9 +13,8 @@ function AboutMe() {
               para ayudarte a descubrir tu propósito y encontrar claridad en tu
               presente y futuro. Con mi enfoque único en la interpretación de
               números y cartas, puedo ayudarte a superar obstáculos y tomar
-              decisiones informadas para alcanzar tus metas y objetivos.
-              Permíteme guiarte hacia la claridad y el propósito que estás
-              buscando.
+              decisiones para alcanzar tus metas y objetivos. Permíteme guiarte
+              hacia la claridad y el propósito que estás buscando.
             </p>
           </div>
           <div class="col-lg-6 d-flex align-items-center">
