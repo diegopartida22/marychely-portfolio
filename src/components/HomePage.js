@@ -22,7 +22,7 @@ function HomePage() {
             <h1 className="homepage-title">Marychely Romero</h1>
 
             <h2>
-              <span>Numeróloga</span> y Tarotista
+              <span>Numeróloga</span>
             </h2>
             <div className="text-description">
               <p>
