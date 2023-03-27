@@ -8,3 +8,11 @@
   position: relative;
   text-align: right;
 }
+
+.services-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}

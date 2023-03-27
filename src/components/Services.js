@@ -12,7 +12,12 @@ function Services() {
           <div class="col-lg-4 col-12">
             <div className="services-card">
               <div class="card">
-                <img src={numerology} class="card-img-top" alt="numerology" />
+                <img
+                  src={numerology}
+                  class="card-img-top"
+                  alt="numerology"
+                  className="services-image"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Numerología</h5>
                   <p class="card-text">
@@ -32,7 +37,12 @@ function Services() {
           <div class="col-lg-4 col-12">
             <div className="services-card">
               <div class="card">
-                <img src={angel} class="card-img-top" alt="angeles" />
+                <img
+                  src={angel}
+                  class="card-img-top"
+                  alt="angeles"
+                  className="services-image"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Terapia de ángeles</h5>
                   <p class="card-text">
@@ -52,7 +62,12 @@ function Services() {
           <div class="col-lg-4 col-12">
             <div className="services-card">
               <div class="card">
-                <img src={tarot} class="card-img-top" alt="tarot" />
+                <img
+                  src={tarot}
+                  class="card-img-top"
+                  alt="tarot"
+                  className="services-image"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Lectura de cartas</h5>
                   <p class="card-text">
