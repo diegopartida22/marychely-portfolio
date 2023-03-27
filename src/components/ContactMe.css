@@ -12,3 +12,10 @@
   position: relative;
   text-align: right;
 }
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+}

@@ -34,6 +34,11 @@
 }
 
 @media (max-width: 768px) {
+  .phrases-title {
+    text-align: center;
+    font-size: 3rem;
+  }
+
   .phrase {
     width: 90%;
   }
