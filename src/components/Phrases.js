@@ -25,30 +25,41 @@ function Phrases() {
                 data-target="#carouselExampleIndicators"
                 data-slide-to="2"
               ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="4"
+              ></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <p class="phrase">
-                  "Los ángeles son nuestros guías divinos, siempre dispuestos a
-                  ayudarnos a encontrar nuestro camino en la vida."
+                  "Ha llegado el momento de poner en práctica lo aprendido."
                 </p>
                 {/* <p className="author">
                   - Radleigh Valentine, experto en ángeles
                 </p> */}
               </div>
               <div class="carousel-item">
-                <p class="phrase">
-                  "La numerología nos recuerda que cada número tiene una
-                  vibración única y que somos parte de un universo
-                  interconectado."
+                <p class="phrase short">
+                  "Donde está tu pasión, está tu misión."
                 </p>
               </div>
               <div class="carousel-item">
                 <p class="phrase">
-                  "Cuando sientas que has llegado al final de tu camino,
-                  recuerda que los ángeles están contigo, iluminante hacia una
-                  nueva dirección."
+                  "Sé feliz con lo que tienes para conseguir lo que quieres."
                 </p>
+              </div>
+              <div class="carousel-item">
+                <p class="phrase short">
+                  "Pies en la tierra y ojos en el cielo."
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="phrase">"Entre hacer y no hacer es mejor hacer."</p>
               </div>
             </div>
             <a
