@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import img from "../images/image1.jpg";
 
 function HomePage() {
   const handleClick = (url) => {
@@ -11,11 +12,7 @@ function HomePage() {
       <div class="container">
         <div className="profile-container" class="row">
           <div class="text-center col-lg-6 col-12">
-            <img
-              src="https://scontent-mty2-1.xx.fbcdn.net/v/t1.6435-9/82785208_10222849639376480_4726283588494950400_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=58NqxnFmFIkAX-7pKgR&_nc_ht=scontent-mty2-1.xx&oh=00_AfAXQ6dMAc2CFo18Fa0rVkgTiU5fkuR4i4SmQsHyEajp2A&oe=64426DFB"
-              alt=""
-              className="profile-image"
-            />
+            <img src={img} alt="" className="profile-image" />
           </div>
 
           <div className="profile-description" class="col-lg-6 col-12">
