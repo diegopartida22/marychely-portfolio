@@ -1,9 +1,10 @@
 import { Navbar, Nav, Collapse } from "bootstrap-4-react";
+import { Link } from "react-scroll";
 import "./NavBar.css";
 
 function NavBar() {
   return (
-    <Navbar class="navbar sticky-top" expand="lg" dark>
+    <Navbar class="navbar sticky-top" fixed="top" expand="lg" dark>
       {/* <img src="/m-solid.svg" alt="" width="30px" className="logo" /> */}
       <Navbar.Brand href="/" className="navbar-brand">
         Marychely Romero
@@ -14,10 +15,54 @@ function NavBar() {
           {/* <Nav.ItemLink href="#" active>
             Inicio
           </Nav.ItemLink> */}
-          <Nav.ItemLink href="#aboutme">¿Quién soy?</Nav.ItemLink>
-          <Nav.ItemLink href="#services">Servicios</Nav.ItemLink>
-          <Nav.ItemLink href="#phrases">Frases</Nav.ItemLink>
-          <Nav.ItemLink href="#contact">Contacto</Nav.ItemLink>
+          <Nav.ItemLink>
+            {" "}
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            ></Link>
+            ¿Quién soy?
+          </Nav.ItemLink>
+          <Nav.ItemLink>
+            <Link
+              to="services"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Servicios
+            </Link>
+          </Nav.ItemLink>
+          <Nav.ItemLink>
+            <Link
+              to="phrases"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Frases
+            </Link>
+          </Nav.ItemLink>
+          <Nav.ItemLink>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Contacto
+            </Link>
+          </Nav.ItemLink>
         </Navbar.Nav>
       </Collapse>
     </Navbar>
