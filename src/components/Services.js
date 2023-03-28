@@ -13,7 +13,7 @@ function Services() {
         <div class="container">
           <h1 className="services-title">Mis Servicios</h1>
           <div class="row">
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
@@ -98,7 +98,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
@@ -185,7 +185,7 @@ function Services() {
               </div>
             </div>
 
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
@@ -269,7 +269,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
@@ -354,7 +354,7 @@ function Services() {
               </div>
             </div>
 
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
@@ -412,16 +412,14 @@ function Services() {
                             La lectura de cartas es una práctica adivinatoria
                             que utiliza cartas especiales, como el Tarot, para
                             obtener información sobre el pasado, el presente y
-                            el futuro. Como lectora de cartas, puedo ayudarte a
-                            comprender mejor tus circunstancias actuales y a
-                            tomar decisiones informadas sobre tu futuro. Utilizo
-                            mi intuición y conocimientos especializados para
-                            interpretar las cartas y proporcionarte información
-                            valiosa sobre tus relaciones, carrera, finanzas y
-                            más. Ya sea que busques respuestas a preguntas
-                            específicas o simplemente estés interesada en
-                            explorar tus posibilidades, puedo ayudarte a
-                            encontrar las respuestas que buscas.
+                            el futuro. Utilizo mi intuición y conocimientos
+                            especializados para interpretar las cartas y
+                            proporcionarte información valiosa sobre tus
+                            relaciones, carrera, finanzas y más. Ya sea que
+                            busques respuestas a preguntas específicas o
+                            simplemente estés interesada en explorar tus
+                            posibilidades, puedo ayudarte a encontrar las
+                            respuestas que buscas.
                           </div>
                           <div class="modal-footer">
                             <button
@@ -440,7 +438,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
