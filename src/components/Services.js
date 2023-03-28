@@ -2,6 +2,9 @@ import "./Services.css";
 import tarot from "../images/tarot.png";
 import angel from "../images/angel.png";
 import numerology from "../images/numerologia.png";
+import access from "../images/terapia-barras.png";
+import lifes from "../images/vidas-pasadas.png";
+import aura from "../images/aura.png";
 
 function Services() {
   return (
@@ -181,6 +184,176 @@ function Services() {
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-4 col-12">
+              <div className="services-card">
+                <div class="card" className="services-cards">
+                  <img
+                    src={access}
+                    class="card-img-top"
+                    alt="angeles"
+                    className="services-image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Terapia Barras Access</h5>
+                    <p class="card-text">
+                      Te guiaré a través de un enfoque holístico que utiliza
+                      toques suaves en puntos específicos de la cabeza.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#barrasAccess"
+                    >
+                      Ver más
+                    </button>
+
+                    <div
+                      class="modal fade"
+                      id="barrasAccess"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="barrasAccessTitle"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-centered"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="terapiaLongTitle"
+                              className="modal-title"
+                            >
+                              Terapia de Barras Access
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body" className="modal-description">
+                            Te guiaré a través de la Terapia Barra Access, un
+                            enfoque holístico que utiliza toques suaves en
+                            puntos específicos de la cabeza para liberar
+                            patrones limitantes y creencias negativas que te
+                            impiden avanzar hacia tus metas y objetivos. Al
+                            liberar estas barreras, podrás experimentar una
+                            mayor claridad mental, reducir el estrés y la
+                            ansiedad, y aumentar tu bienestar emocional y físico
+                            en general. Con mi ayuda, te sentirás más en
+                            sintonía con tu verdadero ser y serás capaz de
+                            conectarte con tu potencial ilimitado.
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div className="services-card">
+                <div class="card" className="services-cards">
+                  <img
+                    src={lifes}
+                    class="card-img-top"
+                    alt="past-lifes"
+                    className="services-image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Vidas Pasadas</h5>
+                    <p class="card-text">
+                      Te ayudaré a explorar el mundo de las vidas pasadas a
+                      través de una sesión personalizada de terapia de
+                      regresión.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#pastLifes"
+                    >
+                      Ver más
+                    </button>
+
+                    <div
+                      class="modal fade"
+                      id="pastLifes"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="pastLifesTitle"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-centered"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="pastLifesLongTitle"
+                              className="modal-title"
+                            >
+                              Vidas Pasadas
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body" className="modal-description">
+                            Juntos, exploraremos tus vidas anteriores para
+                            descubrir los patrones de comportamiento, traumas y
+                            bloqueos emocionales que pueden estar afectando tu
+                            vida actual. A través de esta exploración profunda,
+                            podrás liberar las limitaciones que te impiden
+                            avanzar, y encontrar una mayor comprensión de quién
+                            eres y cuál es tu propósito en esta vida. Te guiaré
+                            en este proceso de manera segura y confidencial,
+                            para que puedas experimentar una transformación
+                            positiva en tu vida.
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="col-lg-4 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
@@ -249,6 +422,88 @@ function Services() {
                             específicas o simplemente estés interesada en
                             explorar tus posibilidades, puedo ayudarte a
                             encontrar las respuestas que buscas.
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div className="services-card">
+                <div class="card" className="services-cards">
+                  <img
+                    src={aura}
+                    class="card-img-top"
+                    alt="past-lifes"
+                    className="services-image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lectura de Aura</h5>
+                    <p class="card-text">
+                      Sumérgete en un mundo de color y vibración con una sesión
+                      de lectura de aura personalizada.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#aura"
+                    >
+                      Ver más
+                    </button>
+
+                    <div
+                      class="modal fade"
+                      id="aura"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="auraTitle"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-centered"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="auraLongTitle"
+                              className="modal-title"
+                            >
+                              Lectura de Aura
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body" className="modal-description">
+                            Te guiaré para que puedas experimentar una conexión
+                            más profunda con tu ser interior y tus emociones a
+                            través de la interpretación de los colores y las
+                            formas que se presentan en tu campo energético. Al
+                            comprender la información que se muestra en tu aura,
+                            podrás obtener claridad sobre tus patrones de
+                            pensamiento, emociones y comportamiento, lo que te
+                            permitirá tomar decisiones más informadas y vivir
+                            una vida más auténtica y plena.
                           </div>
                           <div class="modal-footer">
                             <button

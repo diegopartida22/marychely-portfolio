@@ -59,7 +59,9 @@ function Phrases() {
                 </p>
               </div>
               <div class="carousel-item">
-                <p class="phrase">"Entre hacer y no hacer es mejor hacer."</p>
+                <p class="phrase med">
+                  "Entre hacer y no hacer es mejor hacer."
+                </p>
               </div>
             </div>
             <a
