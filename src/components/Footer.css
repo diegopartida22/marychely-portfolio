@@ -1,0 +1,16 @@
+footer {
+  background-color: #37306b;
+  color: #ecf2ff;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.footer-link:hover {
+  cursor: pointer;
+}

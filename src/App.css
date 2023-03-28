@@ -5,3 +5,9 @@
   height: 100%;
   overflow: hidden;
 }
+
+.header-sticky.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

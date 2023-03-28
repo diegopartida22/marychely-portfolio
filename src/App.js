@@ -7,11 +7,12 @@ import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import ContactMe from "./components/ContactMe";
 import Phrases from "./components/Phrases";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className="header-sticky">
         <NavBar />
       </header>
       <HomePage />
@@ -19,6 +20,7 @@ function App() {
       <Services />
       <Phrases />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <Navbar className="navbar" expand="lg" dark mb="3">
+    <Navbar class="navbar sticky-top" expand="lg" dark>
       {/* <img src="/m-solid.svg" alt="" width="30px" className="logo" /> */}
       <Navbar.Brand href="/" className="navbar-brand">
         Marychely Romero
