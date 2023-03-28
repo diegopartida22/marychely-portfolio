@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <Navbar class="navbar sticky-top" fixed="top" expand="lg" dark>
       {/* <img src="/m-solid.svg" alt="" width="30px" className="logo" /> */}
-      <Navbar.Brand href="/" className="navbar-title" class="navbar-brand">
+      <Navbar.Brand href="/" class="navbar-brand">
         Marychely Romero
       </Navbar.Brand>
       <Navbar.Toggler target="#navbarNav" />
