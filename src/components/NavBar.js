@@ -12,20 +12,30 @@ function NavBar() {
       <Navbar.Toggler target="#navbarNav" />
       <Collapse navbar id="navbarNav">
         <Navbar.Nav>
-          {/* <Nav.ItemLink href="#" active>
-            Inicio
-          </Nav.ItemLink> */}
-          <Nav.ItemLink>
+          <Nav.ItemLink active>
             {" "}
             <Link
-              to="about"
+              to="homepage"
               smooth={true}
               duration={500}
               spy={true}
               exact="true"
               offset={-80}
-            ></Link>
-            ¿Quién soy?
+            >
+              Inicio
+            </Link>
+          </Nav.ItemLink>
+          <Nav.ItemLink>
+            <Link
+              to="aboutme"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              ¿Quién soy?
+            </Link>
           </Nav.ItemLink>
           <Nav.ItemLink>
             <Link
