@@ -33,8 +33,8 @@ function HomePage() {
               <div className="social-container">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
+                  width="4rem"
+                  height="auto"
                   fill="currentColor"
                   class="bi bi-instagram"
                   className="instagram-icon"
@@ -50,8 +50,8 @@ function HomePage() {
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
+                  width="4rem"
+                  height="auto"
                   fill="currentColor"
                   class="bi bi-facebook"
                   className="facebook-icon"

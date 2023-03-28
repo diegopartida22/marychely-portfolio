@@ -28,17 +28,20 @@ function Services() {
                     type="button"
                     class="btn btn-primary"
                     data-toggle="modal"
-                    data-target="#exampleModalCenter"
+                    data-target="#numerologia"
                   >
                     Ver más
                   </button>
+                  {/* <button type="button" class="btn btn-light">
+                    Calculadora
+                  </button> */}
 
                   <div
                     class="modal fade"
-                    id="exampleModalCenter"
+                    id="numerologia"
                     tabindex="-1"
                     role="dialog"
-                    aria-labelledby="exampleModalCenterTitle"
+                    aria-labelledby="numerologiaTitle"
                     aria-hidden="true"
                   >
                     <div
@@ -47,8 +50,8 @@ function Services() {
                     >
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">
-                            Modal title
+                          <h5 class="modal-title" id="numerologiaLongTitle">
+                            Numerología
                           </h5>
                           <button
                             type="button"
@@ -59,7 +62,20 @@ function Services() {
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
-                        <div class="modal-body">...</div>
+                        <div class="modal-body" className="modal-description">
+                          La numerología es una práctica esotérica que utiliza
+                          números para entender los patrones y energías de la
+                          vida. Como numeróloga, puedo ayudarte a descubrir tus
+                          fortalezas y debilidades, así como a identificar las
+                          oportunidades y desafíos que podrías enfrentar en el
+                          futuro. A través del análisis de tu fecha de
+                          nacimiento y/o nombre completo, puedo proporcionarte
+                          información valiosa sobre tu personalidad, carrera,
+                          relaciones y mucho más. Con mi enfoque personalizado y
+                          mi profundo conocimiento de la numerología, puedo
+                          ayudarte a tomar decisiones informadas y a tener una
+                          mejor comprensión de ti misma y de tu vida en general.
+                        </div>
                         <div class="modal-footer">
                           <button
                             type="button"
@@ -96,17 +112,17 @@ function Services() {
                     type="button"
                     class="btn btn-primary"
                     data-toggle="modal"
-                    data-target="#exampleModalCenter"
+                    data-target="#terapia"
                   >
                     Ver más
                   </button>
 
                   <div
                     class="modal fade"
-                    id="exampleModalCenter"
+                    id="terapia"
                     tabindex="-1"
                     role="dialog"
-                    aria-labelledby="exampleModalCenterTitle"
+                    aria-labelledby="terapiaTitle"
                     aria-hidden="true"
                   >
                     <div
@@ -115,8 +131,12 @@ function Services() {
                     >
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">
-                            Modal title
+                          <h5
+                            class="modal-title"
+                            id="terapiaLongTitle"
+                            className="modal-title"
+                          >
+                            Terapia de ángeles
                           </h5>
                           <button
                             type="button"
@@ -127,14 +147,26 @@ function Services() {
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
-                        <div class="modal-body">...</div>
+                        <div class="modal-body" className="modal-description">
+                          La terapia de ángeles es una técnica de curación
+                          espiritual que utiliza la conexión con los ángeles
+                          para aliviar el estrés, la ansiedad y otros problemas
+                          emocionales. Como terapeuta de ángeles, puedo ayudarte
+                          a conectarte con tus ángeles y a recibir su guía y
+                          apoyo. Trabajo con una variedad de técnicas, como la
+                          meditación, la visualización y la comunicación directa
+                          con los ángeles, para ayudarte a sanar y encontrar la
+                          paz interior. Ya sea que estés lidiando con problemas
+                          emocionales, espirituales o físicos, puedo ayudarte a
+                          encontrar el camino hacia la sanación y la felicidad.
+                        </div>
                         <div class="modal-footer">
                           <button
                             type="button"
                             class="btn btn-secondary"
                             data-dismiss="modal"
                           >
-                            Close
+                            Cerrar
                           </button>
                         </div>
                       </div>
@@ -164,17 +196,17 @@ function Services() {
                     type="button"
                     class="btn btn-primary"
                     data-toggle="modal"
-                    data-target="#cartasModal"
+                    data-target="#CartasModal"
                   >
                     Ver más
                   </button>
 
                   <div
                     class="modal fade"
-                    id="cartasModal"
+                    id="CartasModal"
                     tabindex="-1"
                     role="dialog"
-                    aria-labelledby="cartasModalCenterTitle"
+                    aria-labelledby="CartasTitle"
                     aria-hidden="true"
                   >
                     <div
@@ -183,7 +215,11 @@ function Services() {
                     >
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="cartasModalLongTitle">
+                          <h5
+                            class="modal-title"
+                            id="CartasLongTitle"
+                            className="modal-title"
+                          >
                             Lectura de cartas
                           </h5>
                           <button
@@ -195,12 +231,20 @@ function Services() {
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
-                        <div class="modal-body">
-                          <p>
-                            La lectura de cartas es una herramienta que te ayuda
-                            a explorar tu futuro y descubrir las opciones y las
-                            oportunidades que se presentan ante ti.
-                          </p>
+                        <div class="modal-body" className="modal-description">
+                          La lectura de cartas es una práctica adivinatoria que
+                          utiliza cartas especiales, como el Tarot, para obtener
+                          información sobre el pasado, el presente y el futuro.
+                          Como lectora de cartas, puedo ayudarte a comprender
+                          mejor tus circunstancias actuales y a tomar decisiones
+                          informadas sobre tu futuro. Utilizo mi intuición y
+                          conocimientos especializados para interpretar las
+                          cartas y proporcionarte información valiosa sobre tus
+                          relaciones, carrera, finanzas y más. Ya sea que
+                          busques respuestas a preguntas específicas o
+                          simplemente estés interesada en explorar tus
+                          posibilidades, puedo ayudarte a encontrar las
+                          respuestas que buscas.
                         </div>
                         <div class="modal-footer">
                           <button
@@ -208,7 +252,7 @@ function Services() {
                             class="btn btn-secondary"
                             data-dismiss="modal"
                           >
-                            Close
+                            Cerrar
                           </button>
                         </div>
                       </div>

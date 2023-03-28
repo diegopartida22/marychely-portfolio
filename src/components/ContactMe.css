@@ -10,12 +10,51 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   position: relative;
-  text-align: right;
+  text-align: center;
+}
+
+.social-container-contact {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.whatsapp-icon-contact {
+  color: #25d366;
+}
+
+.whatsapp-icon-contact:hover {
+  color: #128c7e;
+}
+
+.facebook-icon-contact {
+  color: #3b5998;
+}
+
+.facebook-icon-contact:hover {
+  color: #2d4373;
+}
+
+.instagram-icon-contact {
+  color: #e1306c;
+}
+
+.instagram-icon-contact:hover {
+  color: #c13584;
 }
 
 @media (max-width: 768px) {
   .contact-title {
     font-size: 3rem;
     text-align: center;
+  }
+
+  .social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
