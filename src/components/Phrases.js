@@ -29,20 +29,25 @@ function Phrases() {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <p class="phrase">
-                  Te ayudaré a conectarte con tus ángeles y a recibir su guía
-                  amorosa y sabia para superar cualquier desafío o bloqueo.
+                  "Los ángeles son nuestros guías divinos, siempre dispuestos a
+                  ayudarnos a encontrar nuestro camino en la vida."
+                </p>
+                {/* <p className="author">
+                  - Radleigh Valentine, experto en ángeles
+                </p> */}
+              </div>
+              <div class="carousel-item">
+                <p class="phrase">
+                  "La numerología nos recuerda que cada número tiene una
+                  vibración única y que somos parte de un universo
+                  interconectado."
                 </p>
               </div>
               <div class="carousel-item">
                 <p class="phrase">
-                  Te ayudaré a conectarte con tus ángeles y a recibir su guía
-                  amorosa y sabia para superar cualquier desafío o bloqueo.
-                </p>
-              </div>
-              <div class="carousel-item">
-                <p class="phrase">
-                  Te ayudaré a conectarte con tus ángeles y a recibir su guía
-                  amorosa y sabia para superar cualquier desafío o bloqueo.
+                  "Cuando sientas que has llegado al final de tu camino,
+                  recuerda que los ángeles están contigo, iluminando tu camino
+                  hacia una nueva dirección."
                 </p>
               </div>
             </div>

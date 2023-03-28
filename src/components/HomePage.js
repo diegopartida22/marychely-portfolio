@@ -27,9 +27,6 @@ function HomePage() {
                   Muestro mi trabajo y enfoque único en interpretación de
                   números y cartas. He ayudado a muchas personas a descubrir su
                   propósito, superar obstáculos y encontrar respuestas.
-                  {/* Ofrezco lecturas
-                personalizadas para brindar orientación y claridad en tu
-                presente y futuro. */}
                 </p>
                 <div className="social-container">
                   <svg
