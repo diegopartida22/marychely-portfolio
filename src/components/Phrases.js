@@ -46,8 +46,8 @@ function Phrases() {
               <div class="carousel-item">
                 <p class="phrase">
                   "Cuando sientas que has llegado al final de tu camino,
-                  recuerda que los ángeles están contigo, iluminando tu camino
-                  hacia una nueva dirección."
+                  recuerda que los ángeles están contigo, iluminante hacia una
+                  nueva dirección."
                 </p>
               </div>
             </div>
