@@ -20,7 +20,6 @@
   margin-top: 2rem;
   margin-bottom: 4rem;
   position: relative;
-  text-align: justify;
 }
 
 .aboutme-image {
@@ -55,6 +54,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
   }
 }

@@ -19,6 +19,7 @@ h2 {
   color: #7f6aad;
   margin-top: 20px;
   font-size: 2.4rem;
+  text-align: center;
 }
 
 span {
@@ -30,7 +31,6 @@ span {
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
   margin-bottom: 4rem;
-  text-align: justify;
 }
 
 .profile-image {
@@ -73,22 +73,20 @@ span {
   }
 
   .social-container {
-    justify-content: center;
+    align-items: start;
   }
 
   .text-description,
   h2 {
     width: 80%;
     margin-top: 2rem;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
   }
 
   .text-description {
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: left;
   }
 }
