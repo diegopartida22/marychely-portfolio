@@ -13,7 +13,7 @@ function AboutMe() {
                 Como profesional de la numerología y consultoría en superación
                 personal, mi objetivo es ayudar a las personas a alcanzar su
                 máximo potencial. Creo en el poder de la mente y en la
-                importancia del autoconocimineto para lograr una vida plena y
+                importancia del autoconocimiento para lograr una vida plena y
                 satisfactoria. Si estás buscando mejorar tu vida y alcanzar tus
                 metas, estoy aquí para ayudarte en el proceso.
               </p>
