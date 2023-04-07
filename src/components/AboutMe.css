@@ -38,6 +38,7 @@
     width: 80%;
     /* Positionate the image in the center */
     display: block;
+    margin-top: -1rem;
     margin-left: auto;
     margin-right: auto;
   }
