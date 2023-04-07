@@ -36,18 +36,14 @@ function Phrases() {
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <p class="phrase">
-                  "Ha llegado el momento de poner en práctica lo aprendido."
+                <p class="phrase short">
+                  "Donde está tu pasión, está tu misión."
                 </p>
                 {/* <p className="author">
                   - Radleigh Valentine, experto en ángeles
                 </p> */}
               </div>
-              <div class="carousel-item">
-                <p class="phrase short">
-                  "Donde está tu pasión, está tu misión."
-                </p>
-              </div>
+
               <div class="carousel-item">
                 <p class="phrase">
                   "Sé feliz con lo que tienes para conseguir lo que quieres."

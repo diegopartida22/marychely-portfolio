@@ -77,9 +77,8 @@ function Services() {
                             información valiosa sobre tu personalidad, carrera,
                             relaciones y mucho más. Con mi enfoque personalizado
                             y mi profundo conocimiento de la numerología, puedo
-                            ayudarte a tomar decisiones informadas y a tener una
-                            mejor comprensión de ti misma y de tu vida en
-                            general.
+                            ayudarte a tomar decisiones y a tener una mejor
+                            comprensión sobre ti y de tu vida en general.
                           </div>
                           <div class="modal-footer">
                             <button
@@ -189,6 +188,90 @@ function Services() {
               <div className="services-card">
                 <div class="card" className="services-cards">
                   <img
+                    src={tarot}
+                    class="card-img-top"
+                    alt="tarot"
+                    className="services-image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lectura de cartas</h5>
+                    <p class="card-text">
+                      Te ayudaré a explorar las infinitas posibilidades y
+                      oportunidades que se presentan ante ti.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#CartasModal"
+                    >
+                      Ver más
+                    </button>
+
+                    <div
+                      class="modal fade"
+                      id="CartasModal"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="CartasTitle"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-centered"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="CartasLongTitle"
+                              className="modal-title"
+                            >
+                              Lectura de cartas
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body" className="modal-description">
+                            Con el uso de tarot con enfoque terapéutico podemos
+                            indagar en el plano emocional aquello que está
+                            inpidiendote crecer en el ambito espiritual. Utilizo
+                            mi intuición y conocimientos especializados para
+                            interpretar las cartas y proporcionarte información
+                            valiosa sobre tus relaciones, carrera, finanzas y
+                            más. Ya sea que busques respuestas a preguntas
+                            específicas o simplemente estés interesada en
+                            explorar tus posibilidades, puedo ayudarte a
+                            encontrar las respuestas que buscas.
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div className="services-card">
+                <div class="card" className="services-cards">
+                  <img
                     src={access}
                     class="card-img-top"
                     alt="angeles"
@@ -197,8 +280,10 @@ function Services() {
                   <div class="card-body">
                     <h5 class="card-title">Terapia Barras Access</h5>
                     <p class="card-text">
-                      Te guiaré a través de un enfoque holístico que utiliza
-                      toques suaves en puntos específicos de la cabeza.
+                      Liberarás pensamientos, sentimientos y emociones negativos
+                      almacenados en tu cerebro.
+                      {/* Te guiaré a través de un enfoque holístico que utiliza
+                      toques suaves en puntos específicos de la cabeza. */}
                     </p>
                     <button
                       type="button"
@@ -240,17 +325,17 @@ function Services() {
                             </button>
                           </div>
                           <div class="modal-body" className="modal-description">
-                            Te guiaré a través de la Terapia Barra Access, un
-                            enfoque holístico que utiliza toques suaves en
-                            puntos específicos de la cabeza para liberar
-                            patrones limitantes y creencias negativas que te
-                            impiden avanzar hacia tus metas y objetivos. Al
-                            liberar estas barreras, podrás experimentar una
-                            mayor claridad mental, reducir el estrés y la
-                            ansiedad, y aumentar tu bienestar emocional y físico
-                            en general. Con mi ayuda, te sentirás más en
-                            sintonía con tu verdadero ser y serás capaz de
-                            conectarte con tu potencial ilimitado.
+                            La Terapia Barra Access, es un enfoque holístico que
+                            utiliza toques suaves en puntos específicos de la
+                            cabeza para liberar patrones limitantes y creencias
+                            negativas que te impiden avanzar hacia tus metas y
+                            objetivos. Al liberar estas barreras, podrás
+                            experimentar una mayor claridad mental, reducir el
+                            estrés y la ansiedad, y aumentar tu bienestar
+                            emocional y físico en general. Con mi ayuda, te
+                            sentirás más en sintonía con tu verdadero ser y
+                            serás capaz de conectarte con tu potencial
+                            ilimitado.
                           </div>
                           <div class="modal-footer">
                             <button
@@ -282,8 +367,7 @@ function Services() {
                     <h5 class="card-title">Vidas Pasadas</h5>
                     <p class="card-text">
                       Te ayudaré a explorar el mundo de las vidas pasadas a
-                      través de una sesión personalizada de terapia de
-                      regresión.
+                      través de una sesión personalizada de terapia.
                     </p>
                     <button
                       type="button"
@@ -331,10 +415,10 @@ function Services() {
                             vida actual. A través de esta exploración profunda,
                             podrás liberar las limitaciones que te impiden
                             avanzar, y encontrar una mayor comprensión de quién
-                            eres y cuál es tu propósito en esta vida. Te guiaré
-                            en este proceso de manera segura y confidencial,
-                            para que puedas experimentar una transformación
-                            positiva en tu vida.
+                            eres y cuál es tu propósito en esta vida. Usando
+                            herramientas cómo la numerología y oraculos de vidas
+                            pasadas te guiaré en este proceso, para que puedas
+                            experimentar una transformación positiva en tu vida.
                           </div>
                           <div class="modal-footer">
                             <button
@@ -354,90 +438,6 @@ function Services() {
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12">
-              <div className="services-card">
-                <div class="card" className="services-cards">
-                  <img
-                    src={tarot}
-                    class="card-img-top"
-                    alt="tarot"
-                    className="services-image"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Lectura de cartas</h5>
-                    <p class="card-text">
-                      Te ayudaré a explorar tu futuro y descubrir las opciones y
-                      oportunidades que se presentan ante ti.
-                    </p>
-                    <button
-                      type="button"
-                      class="btn btn-primary"
-                      data-toggle="modal"
-                      data-target="#CartasModal"
-                    >
-                      Ver más
-                    </button>
-
-                    <div
-                      class="modal fade"
-                      id="CartasModal"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="CartasTitle"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="modal-dialog modal-dialog-centered"
-                        role="document"
-                      >
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5
-                              class="modal-title"
-                              id="CartasLongTitle"
-                              className="modal-title"
-                            >
-                              Lectura de cartas
-                            </h5>
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body" className="modal-description">
-                            La lectura de cartas es una práctica adivinatoria
-                            que utiliza cartas especiales, como el Tarot, para
-                            obtener información sobre el pasado, el presente y
-                            el futuro. Utilizo mi intuición y conocimientos
-                            especializados para interpretar las cartas y
-                            proporcionarte información valiosa sobre tus
-                            relaciones, carrera, finanzas y más. Ya sea que
-                            busques respuestas a preguntas específicas o
-                            simplemente estés interesada en explorar tus
-                            posibilidades, puedo ayudarte a encontrar las
-                            respuestas que buscas.
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="btn btn-secondary"
-                              data-dismiss="modal"
-                            >
-                              Cerrar
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/*  */}
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-lg-4 col-md-6 col-12">
               <div className="services-card">
                 <div class="card" className="services-cards">
@@ -493,15 +493,18 @@ function Services() {
                             </button>
                           </div>
                           <div class="modal-body" className="modal-description">
-                            Te guiaré para que puedas experimentar una conexión
-                            más profunda con tu ser interior y tus emociones a
-                            través de la interpretación de los colores y las
-                            formas que se presentan en tu campo energético. Al
-                            comprender la información que se muestra en tu aura,
-                            podrás obtener claridad sobre tus patrones de
-                            pensamiento, emociones y comportamiento, lo que te
-                            permitirá tomar decisiones más informadas y vivir
-                            una vida más auténtica y plena.
+                            Con el uso de un dispositivo cuántico
+                            <span className="healy"> Healy Resonance </span>
+                            obtendremos una imagen de tu campo áurico para que
+                            puedas experimentar una conexión más profunda con tu
+                            ser interior y tus emociones a través de la
+                            interpretación de los colores y las formas que se
+                            presentan en tu campo energético. Al comprender la
+                            información que se muestra en tu aura, podrás
+                            obtener claridad sobre tus patrones de pensamiento,
+                            emociones y comportamiento, lo que te permitirá
+                            tomar decisiones más informadas y vivir una vida más
+                            auténtica y plena.
                           </div>
                           <div class="modal-footer">
                             <button

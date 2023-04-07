@@ -1,19 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo:wght@400;500&display=swap");
+
 .homepage {
   margin-top: 6rem;
 }
 
 .homepage-title {
-  font-size: 4rem;
-  font-weight: bold;
-  color: #393053;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #33217a;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   margin-top: 4rem;
   position: relative;
+  font-family: "Bebas Neue", cursive;
 }
 
 h2 {
-  color: #635985;
+  color: #7f6aad;
   margin-top: 20px;
   font-size: 2.4rem;
 }
@@ -23,16 +26,11 @@ span {
   text-decoration: underline;
 }
 
-a {
-  text-decoration: none;
-  color: #393053;
-}
-
 .text-description {
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
-
   margin-bottom: 4rem;
+  text-align: justify;
 }
 
 .profile-image {
@@ -62,7 +60,7 @@ a {
   }
 
   .profile-description {
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -71,7 +69,7 @@ a {
   .homepage-title {
     margin-top: 30px;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 
   .social-container {
@@ -82,9 +80,15 @@ a {
   h2 {
     width: 80%;
     margin-top: 2rem;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+
+  .text-description {
+    font-size: 1.5rem;
+    text-align: justify;
   }
 }

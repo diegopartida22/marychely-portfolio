@@ -23,7 +23,7 @@
 }
 
 .services-cards {
-  background-color: #37306b;
+  background-color: #261580;
   color: #fff;
   padding: 20px;
   margin-top: 20px;
@@ -38,16 +38,21 @@
   margin: 1rem;
   margin-right: auto;
   font-size: 1.2rem;
-  color: #37306b;
+  color: #261580;
 }
 
 .modal-title {
-  color: #37306b;
+  color: #261580;
   font-size: 1.4rem;
 }
 
 .btn-light {
   margin-left: 1rem;
+}
+
+.healy {
+  color: #261580;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {

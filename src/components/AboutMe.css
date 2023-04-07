@@ -20,15 +20,17 @@
   margin-top: 2rem;
   margin-bottom: 4rem;
   position: relative;
+  text-align: justify;
 }
 
 .aboutme-image {
-  width: 100%;
-  margin-left: 3rem;
+  width: 60%;
   border: 3px solid #333; /* adds a border */
   background-color: #f2f2f2; /* sets a background color */
   padding: 20px; /* adds some padding inside the figure */
-  margin-bottom: 30px;
+  margin: 30px 0;
+  margin-left: auto;
+  margin-right: auto;
   /* adds some margin around the figure */
 }
 
@@ -47,12 +49,12 @@
   }
 
   .aboutme-description {
-    width: 85%;
+    width: 90%;
     display: flex;
     align-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: justify;
   }
 }
