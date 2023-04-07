@@ -19,7 +19,6 @@ h2 {
   color: #7f6aad !important;
   margin-top: 20px;
   font-size: 2.4rem;
-  text-align: center;
 }
 
 span {
@@ -75,6 +74,7 @@ span {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   .text-description {
