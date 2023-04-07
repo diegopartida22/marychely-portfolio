@@ -25,7 +25,7 @@ function HomePage() {
               <div className="text-description">
                 <p>
                   Muestro mi trabajo y enfoque único en interpretación de
-                  números y cartas. He ayudado a muchas personas a descubrir su
+                  números y cartas. He acompañado a muchas personas a descubrir su
                   propósito, superar obstáculos y encontrar respuestas.
                 </p>
                 <div className="social-container">
