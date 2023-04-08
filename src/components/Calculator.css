@@ -70,6 +70,10 @@ h3 {
   border-radius: 10px;
 }
 
+.month-input {
+  margin-bottom: 3rem;
+}
+
 .label-input {
   font-size: 1.5rem;
   font-weight: bold;

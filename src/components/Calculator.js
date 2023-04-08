@@ -133,7 +133,7 @@ function Calculator() {
                 <select
                   value={month}
                   onChange={handleMonthChange}
-                  className="form-control"
+                  className="form-control month-input"
                 >
                   <option value="">Selecciona un mes</option>
                   {months}
