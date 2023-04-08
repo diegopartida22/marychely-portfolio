@@ -138,26 +138,28 @@ function Calculator() {
             </Form>
           </div>
 
-          <div class="col-lg-6 col-12" className="year-description">
-            {!selectedDay && !selectedMonth && (
-              <>
-                <h3>¿Cuál es tu año personal?</h3>
-                <p className="p-description">
-                  Para saber cómo será tu año personal, selecciona un día y un
-                  mes.
-                </p>
-              </>
-            )}
-            {selectedDay && selectedMonth && result && (
-              <>
-                {/* Día: {selectedDay}, Mes: {selectedMonth}, Año {actualYear}, */}
-                <h3>
-                  Tu año personal es{" "}
-                  <span className="result-span">{result}</span>
-                </h3>
-                <p className="p-description">{description}</p>
-              </>
-            )}
+          <div class="col-lg-6 col-12">
+            <div className="year-description">
+              {!selectedDay && !selectedMonth && (
+                <>
+                  <h3>¿Cuál es tu año personal?</h3>
+                  <p className="p-description">
+                    Para saber cómo será tu año personal, selecciona un día y un
+                    mes.
+                  </p>
+                </>
+              )}
+              {selectedDay && selectedMonth && result && (
+                <>
+                  {/* Día: {selectedDay}, Mes: {selectedMonth}, Año {actualYear}, */}
+                  <h3>
+                    Tu año personal es{" "}
+                    <span className="result-span">{result}</span>
+                  </h3>
+                  <p className="p-description">{description}</p>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </div>
