@@ -77,7 +77,7 @@ function Calculator() {
       ],
       [
         9,
-        "Este es un año de transformación, purificación y terminación. Es el momento de hacer una evaluación profunda de tu vida y dejar ir todo lo que ya no te sirve. Es importante soltar hábitos, pensamientos y comportamientos que te están limitando. Es un año para hacer una limpieza profunda de tu casa, mente y vida en general. Todo lo que esté inconcluso debe tener un desenlace. Agradece por las experiencias que has tenido y por todo lo que has aprendido. Es el momento de transformarte en una mejor versión de ti mismo.",
+        "Este es un año de transformación, purificación y terminación. Es el momento de hacer una evaluación profunda de tu vida y dejar ir todo lo que ya no te sirve. Es importante soltar hábitos, pensamientos y comportamientos que te están limitando. Es un año para hacer una limpieza profunda de tu casa, mente y vida en general. Todo lo que esté inconcluso debe tener un desenlace. Agradece por las experiencias que has tenido y por todo lo que has aprendido. Es el momento de transformarte en una mejor versión de ti mismo. Da gracias por todo lo que viene y por lo que se fue.",
       ],
     ]);
 
