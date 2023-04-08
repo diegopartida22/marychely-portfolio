@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import { Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Link } from "react-scroll";
 import "./Calculator.css";
 
 function Calculator() {
@@ -39,6 +40,8 @@ function Calculator() {
     let newResult = digits.reduce((acc, curr) => acc + curr, 0);
     if (newResult === 10) {
       newResult = 1;
+    } else if (newResult === 11) {
+      newResult = 2;
     }
     setResult(newResult);
 
@@ -136,32 +139,42 @@ function Calculator() {
                   {months}
                 </select>
               </div>
-              <button type="submit" className="btn calculator-button">
+
+              <Link
+                to="personalYear"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+                onClick={handleSubmit}
+                className="calculator-button"
+              >
                 Calcular
-              </button>
+              </Link>
             </form>
           </div>
 
           <div className="col-lg-6 col-12">
             <div className="year-description">
               {!selectedDay && !selectedMonth && (
-                <>
+                <section id="personalYear">
                   <h3>¿Cuál es tu año personal?</h3>
                   <p className="p-description">
                     Para saber cómo será tu año personal, selecciona un día y un
                     mes.
                   </p>
-                </>
+                </section>
               )}
               {selectedDay && selectedMonth && result && (
-                <>
+                <section id="personalYear">
                   {/* Día: {selectedDay}, Mes: {selectedMonth}, Año {actualYear}, */}
                   <h3>
                     Tu año personal es{" "}
                     <span className="result-span">{result}</span>
                   </h3>
                   <p className="p-description">{description}</p>
-                </>
+                </section>
               )}
             </div>
           </div>
