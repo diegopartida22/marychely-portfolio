@@ -21,6 +21,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "reactstrap": "^9.1.8",
+    "vercel": "^28.18.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -12,3 +12,8 @@ footer {
 .footer-link:hover {
   cursor: pointer;
 }
+
+.heart-icon {
+  color: #e1306c;
+  width: 1rem;
+}

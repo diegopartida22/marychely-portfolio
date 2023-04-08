@@ -25,6 +25,7 @@
 
 .whatsapp-icon-contact {
   color: #25d366;
+  width: 6rem;
 }
 
 .whatsapp-icon-contact:hover {
@@ -33,6 +34,7 @@
 
 .facebook-icon-contact {
   color: #3b5998;
+  width: 6rem;
 }
 
 .facebook-icon-contact:hover {
@@ -41,6 +43,7 @@
 
 .instagram-icon-contact {
   color: #e1306c;
+  width: 6rem;
 }
 
 .instagram-icon-contact:hover {
@@ -51,6 +54,12 @@
   .contact-title {
     font-size: 3rem;
     text-align: center;
+  }
+
+  .whatsapp-icon-contact,
+  .facebook-icon-contact,
+  .instagram-icon-contact {
+    width: 4.5rem;
   }
 
   .social-container {

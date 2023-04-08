@@ -11,7 +11,7 @@ function Footer() {
           Hecho con{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="18"
+            width="auto"
             height="auto"
             fill="currentColor"
             class="bi bi-heart-fill"

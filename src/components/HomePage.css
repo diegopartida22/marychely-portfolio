@@ -45,8 +45,16 @@ span {
   margin-top: 30px;
 }
 
+.instagram-icon {
+  width: 4rem;
+}
+
 .instagram-icon:hover {
   color: #e1306c;
+}
+
+.facebook-icon {
+  width: 4rem;
 }
 
 .facebook-icon:hover {

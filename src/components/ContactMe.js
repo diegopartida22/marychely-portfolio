@@ -13,7 +13,7 @@ function ContactMe() {
           <div className="social-container-contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="5rem"
+              width="auto"
               height="auto"
               fill="currentColor"
               class="bi bi-instagram"
@@ -29,7 +29,7 @@ function ContactMe() {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="5rem"
+              width="auto"
               height="auto"
               fill="currentColor"
               class="bi bi-whatsapp"
@@ -42,7 +42,7 @@ function ContactMe() {
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="5rem"
+              width="auto"
               height="auto"
               fill="currentColor"
               class="bi bi-facebook"
