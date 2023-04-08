@@ -73,6 +73,18 @@ function NavBar() {
               Contacto
             </Link>
           </Nav.ItemLink>
+          <Nav.ItemLink>
+            <Link
+              to="calculator"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Año personal
+            </Link>
+          </Nav.ItemLink>
         </Navbar.Nav>
       </Collapse>
     </Navbar>

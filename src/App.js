@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import ContactMe from "./components/ContactMe";
 import Phrases from "./components/Phrases";
 import Footer from "./components/Footer";
+import Calculator from "./components/Calculator";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Phrases />
       <ContactMe />
+      <Calculator />
       <Footer />
     </div>
   );

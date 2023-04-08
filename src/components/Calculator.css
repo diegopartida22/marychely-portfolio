@@ -1,0 +1,108 @@
+Form {
+  padding: 2rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  color: #7f6aad;
+  border-radius: 20px;
+}
+
+h3 {
+  color: #7f6aad;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#calculator {
+  background-color: #261580;
+  color: #ecf2ff;
+  padding: 4rem 0;
+}
+
+.calculator-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.calculator-description {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.year-description {
+  font-size: 1.5rem;
+  background-color: #fff;
+  color: #261580;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.label-input {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.calculator-button {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ff6000;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.calculator-button:hover {
+  background-color: #b8621b;
+}
+
+.result-span {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .year-description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    width: 90%;
+  }
+
+  .form-control {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+}
