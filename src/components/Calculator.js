@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, FormGroup, Label, Input, Button } from "reactstrap";
+// import { Form, FormGroup, Label, Input, Button } from "reactstrap";
 import "./Calculator.css";
 
 function Calculator() {
@@ -8,7 +8,7 @@ function Calculator() {
   const [selectedDay, setSelectedDay] = useState("");
   const [selectedMonth, setSelectedMonth] = useState("");
   const [result, setResult] = useState("");
-  const [description, setDescription] = useState([]);
+  const [description, setDescription] = useState("");
 
   const actualYear = new Date().getFullYear();
 
@@ -101,44 +101,42 @@ function Calculator() {
         <p className="calculator-description">
           ¿Cómo será tu año personal este {actualYear}?
         </p>
-        <div className="row">
-          <div className="form-container card" class="col-lg-6 col-12">
-            <Form onSubmit={handleSubmit}>
-              <FormGroup controlId="dayInput" className="form-group">
-                <Label for="dayInput" className="label-input">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <form onSubmit={handleSubmit} className="form-container">
+              <div controlId="dayInput" className="form-group">
+                <label htmlFor="dayInput" className="label-input">
                   Día de nacimiento:
-                </Label>
-                <Input
-                  type="select"
+                </label>
+                <select
                   value={day}
                   onChange={handleDayChange}
                   className="form-control"
                 >
                   <option value="">Selecciona un día</option>
                   {days}
-                </Input>
-              </FormGroup>
-              <FormGroup controlId="monthInput" className="form-group">
-                <Label for="monthInput" className="label-input">
+                </select>
+              </div>
+              <div controlId="monthInput" className="form-group">
+                <label htmlFor="monthInput" className="label-input">
                   Mes de nacimiento:
-                </Label>
-                <Input
-                  type="select"
+                </label>
+                <select
                   value={month}
                   onChange={handleMonthChange}
                   className="form-control"
                 >
                   <option value="">Selecciona un mes</option>
                   {months}
-                </Input>
-              </FormGroup>
-              <Button type="submit" className="btn calculator-button">
+                </select>
+              </div>
+              <button type="submit" className="btn calculator-button">
                 Calcular
-              </Button>
-            </Form>
+              </button>
+            </form>
           </div>
 
-          <div class="col-lg-6 col-12">
+          <div className="col-lg-6 col-12">
             <div className="year-description">
               {!selectedDay && !selectedMonth && (
                 <>
