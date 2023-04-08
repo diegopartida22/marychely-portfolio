@@ -98,8 +98,14 @@ function Calculator() {
     <section id="calculator">
       <div className="container">
         <h1 className="calculator-title">Tu año personal</h1>
-        <p className="calculator-description">
+        <h3 className="year-title">
           ¿Cómo será tu año personal este {actualYear}?
+        </h3>
+        <p className="calculator-description">
+          Al conocer cuál es tu año personal, puedes prepararte mental y
+          emocionalmente para las experiencias que puedan surgir, identificar
+          las lecciones que puedes aprender y enfocarte en tus metas y objetivos
+          específicos para ese año.
         </p>
         <div class="row">
           <div class="col-lg-6 col-12">
