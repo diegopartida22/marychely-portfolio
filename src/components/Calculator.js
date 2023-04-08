@@ -52,7 +52,7 @@ function Calculator() {
       ],
       [
         2,
-        "Se trata de colaboración, alianzas y trabajo en equipo. Es un año para asociarse y lograr resultados, pero debes cuidar tus emociones y no tomar las cosas personal. Es un año de despertar de conciencia y cooperación.",
+        "Se trata de colaboración, alianzas y trabajo en equipo. Es un año idal para asociarse y enamorarse, debes cuidar tus emociones y no tomar las cosas personal. Es un año de despertar de conciencia y cooperación. Aceptar cambiar o salir de una relación, darte cuenta de lo que no te dabas cuenta.",
       ],
       [
         3,
