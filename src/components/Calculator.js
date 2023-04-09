@@ -146,7 +146,7 @@ function Calculator() {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-120}
                 onClick={handleSubmit}
                 className="calculator-button"
               >
