@@ -101,6 +101,36 @@ h3 {
   text-decoration: none;
 }
 
+.arrow-up {
+  width: 2rem;
+  height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.arrow-up:hover {
+  animation: arrow-up 1s ease-in-out infinite;
+}
+
+.arrow-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: -2rem;
+}
+
+@keyframes arrow-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
   .year-description {
     margin-left: auto;
