@@ -1,16 +1,27 @@
 import { Navbar, Nav, Collapse } from "bootstrap-4-react";
 import { Link } from "react-scroll";
+import { useState } from "react";
 import "./NavBar.css";
 
 function NavBar() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const handleNavItemClick = () => {
+    setIsNavOpen(false);
+  };
+
   return (
     <Navbar class="navbar sticky-top" fixed="top" expand="lg" dark>
       {/* <img src="/m-solid.svg" alt="" width="30px" className="logo" /> */}
-      <Navbar.Brand href="/" class="navbar-brand">
+      <Navbar.Brand href="/" className="navbar-brand">
         Marychely Romero
       </Navbar.Brand>
-      <Navbar.Toggler target="#navbarNav" />
-      <Collapse navbar id="navbarNav">
+      <Navbar.Toggler
+        target="#navbarNav"
+        onClick={() => setIsNavOpen(!isNavOpen)}
+        className={isNavOpen ? "collapsed" : ""}
+      />
+      <Collapse navbar className={isNavOpen ? "show collapsing" : "collapsing"}>
         <Navbar.Nav>
           <Nav.ItemLink active>
             {" "}
@@ -21,6 +32,7 @@ function NavBar() {
               spy={true}
               exact="true"
               offset={-80}
+              onClick={handleNavItemClick}
             >
               Inicio
             </Link>
@@ -33,6 +45,7 @@ function NavBar() {
               spy={true}
               exact="true"
               offset={-80}
+              onClick={handleNavItemClick}
             >
               ¿Quién soy?
             </Link>
@@ -45,6 +58,7 @@ function NavBar() {
               spy={true}
               exact="true"
               offset={-80}
+              onClick={handleNavItemClick}
             >
               Servicios
             </Link>
@@ -57,6 +71,7 @@ function NavBar() {
               spy={true}
               exact="true"
               offset={-80}
+              onClick={handleNavItemClick}
             >
               Frases
             </Link>
@@ -69,6 +84,7 @@ function NavBar() {
               spy={true}
               exact="true"
               offset={-80}
+              onClick={handleNavItemClick}
             >
               Contacto
             </Link>
@@ -81,6 +97,7 @@ function NavBar() {
               spy={true}
               exact="true"
               offset={-80}
+              onClick={handleNavItemClick}
             >
               Año personal
             </Link>

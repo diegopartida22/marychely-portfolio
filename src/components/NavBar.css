@@ -17,3 +17,16 @@
   background-color: #37306b;
   color: black;
 }
+
+.navbar-collapse {
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.navbar-collapse.collapsing {
+  height: 0;
+}
+
+.navbar-collapse.show {
+  height: auto;
+}
